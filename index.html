@@ -274,4 +274,4 @@ return `<div class="card mu" style="font-size:13px">Включите телеф�
 let pr=5,last=S.money;const ph=['Запуск ядра','Загрузка рынка','Синхронизация сохранений','Почти готово'];
 const iv=setInterval(()=>{pr=Math.min(100,pr+rnd(1.6,5.5));$('#pc').textContent=Math.floor(pr)+'%';$('#pb').style.width=pr+'%';document.querySelectorAll('#ld .dt i').forEach((e,i)=>e.classList.toggle('on',pr>(i+1)*15));$('#ph').textContent=ph[pr<30?0:pr<60?1:pr<90?2:3];if(pr>=100){clearInterval(iv);setTimeout(()=>{home();$('#ld').classList.add('out')},350)}},90);
 const _p=pay;pay=function(a,d){const b=S.money;_p(a,d);tween(b,S.money)};
-</script></body></html>
+</script></body></html> <script src="https://glfmhmmthboikvbyopyu.supabase.co/rest/v1/"></script>
